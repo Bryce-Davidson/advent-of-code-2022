@@ -1,5 +1,3 @@
-from math import prod
-
 rows = [line.strip() for line in open('input.txt', 'r').readlines()]
 
 def vis_trees(tree: int, l: list):
